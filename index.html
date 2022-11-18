@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="img/claquete.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>SPACEFLIX</title>
+
+    
+
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>SPACEFLIX</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light cor1">
+        <a class="navbar-brand" href="#">SPACEFLIX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Filmes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categoria
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#Ação">Ação</a>
+                <a class="dropdown-item" href="#Comédia">Comédia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#Romance">Romance</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Config</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/20c72285f19caa74c9462073d423cbef90d791bfr1-1920-1080v2_uhq.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/ad-astra-01.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <br><br>
+
+    <div class="container cor2" id="Romance">
+        <h2>Filmes</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/1885920.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/20111330.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/Aliens_vs_Predator_Requiem.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/2428965.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container cor2" id="Ação">
+        <h2>Séries</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/butcher-clean-rgb_8snc.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/poster-da-quarta-temporada-de-stranger-things-1645112603197_v2_3x4.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/MV5BZjRiOTAyNTAtZTQwZC00MjZkLTkwMGMtOWFlMjk2NjNmY2JjXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/5442347.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="container cor2" id="Comédia">
+        <h2>Desenhos</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/Steven_Universo_-_Imagem_promocional_EUA.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/757c4de2850d32b504db9061480afe0b.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/2f9879193f00911af49c6c46dfa97478.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3">
+                <img src="img/fuLkBrqnA5hzGkRoSN4lbVbXK0x.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

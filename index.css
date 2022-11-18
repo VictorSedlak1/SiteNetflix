@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+body{
+    background-color: #170838
+}
+
+h1{
+    color: #5742f5;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cor1{
+    background-color: #8852ff;
+}
+
+.cor2{
+    background-color: #8852ff;
+}
+
+img{
+    height: 400px !important;
+}
