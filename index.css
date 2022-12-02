@@ -19,5 +19,13 @@ h1{
 }
 
 img{
-    height: 400px !important;
+    height: 400px ;
+}
+
+.tamanho3{
+    height: 600px !important;
+}
+
+.tamanhoImagemCarousel{
+    height: 600px !important;
 }
